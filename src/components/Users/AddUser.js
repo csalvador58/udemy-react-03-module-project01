@@ -7,7 +7,7 @@ import classes from './AddUser.module.css';
 function AddUser(props) {
   const [enteredUsername, setEnteredUsername] = useState('');
   const [enteredUserAge, setEnteredUserAge] = useState('');
-  const [error, setError] = useState();
+  const [error, setError] = useState('');
 
   const addUserHandler = (event) => {
     event.preventDefault();
